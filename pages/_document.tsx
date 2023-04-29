@@ -25,8 +25,14 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Create 5sec recipies from just ingredients in your kitchen."
           />
-          <meta property="og:image" content="/thumbnail.png" />
-          <meta name="twitter:image" content="/thumbnail.png" />
+          <meta
+            property="og:image"
+            content="https://chefster.vercel.app/thumbnail.png"
+          />
+          <meta
+            name="twitter:image"
+            content="https://chefster.vercel.app/thumbnail.png"
+          />
         </Head>
         <body>
           <Main />
