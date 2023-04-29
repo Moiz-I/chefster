@@ -26,7 +26,7 @@ class MyDocument extends Document {
             content="Create 5sec recipies from just ingredients in your kitchen."
           />
           <meta property="og:image" content="/thumbnail.png" />
-          <meta name="twitter:image" content="thumbnail.png" />
+          <meta name="twitter:image" content="/thumbnail.png" />
         </Head>
         <body>
           <Main />
