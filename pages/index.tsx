@@ -38,7 +38,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate a recipie based ONLY the given ingredients(do not have to use all of them) the user has available in their cupboard, give me a markdown recipe with: title as name of the dish, a line for preparation time(should be a specific time in ${selectedTime}). then a subheading(h3) for ingredients with bullet point ingredients(with all quantities MUST be BOTH metric AND imperial units), a subheading(h3) for instructions and ordered steps for making the dish including specific times in degrees/Fahrenheit, and timings for each with tips, so it is in the style of a chef's cookbook. diet:${selectedDiet}. base it on these ingredients: ${bio}${
+  const prompt = `Generate a recipe based ONLY the given ingredients(do not have to use all of them) the user has available in their cupboard, give me a markdown recipe with: title as name of the dish, a line for preparation time(should be a specific time in ${selectedTime}). then a subheading(h3) for ingredients with bullet point ingredients(with all quantities MUST be BOTH metric AND imperial units), a subheading(h3) for instructions and ordered steps for making the dish including specific times in degrees/Fahrenheit, and timings for each with tips, so it is in the style of a chef's cookbook. diet:${selectedDiet}. base it on these ingredients: ${bio}${
     bio.slice(-1) === "." ? "" : "."
   }`;
 
