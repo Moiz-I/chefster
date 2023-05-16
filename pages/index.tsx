@@ -187,7 +187,7 @@ const Home: NextPage = () => {
 
       <a
         className="cursor-pointer fixed left-4 bottom-4 text-xs px-3 py-1 rounded-xl text-slate-500 bg-slate-200 bg-opacity-60 backdrop-filter backdrop-blur-lg hover:bg-green-200 transition"
-        href="https://twitter.com/Moiz_zzz"
+        href="https://github.com/Moiz-I"
       >
         Made with 💚 by Moiz
       </a>
